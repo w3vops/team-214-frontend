@@ -1,0 +1,86 @@
+.service h2{
+    text-align: center;
+    font-weight: 900;
+}
+.service .golden{
+    text-transform: capitalize;
+}
+.service-sect-one{
+ text-align: center;
+}
+.service-body, .form{
+    padding: 5%;
+}
+.service .list{
+    display: flex;
+    justify-content: flex-start;
+}
+.service .fa{
+    font-size: 1.2em;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.service .my-jumbotron{
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service .my-jumbotron h2{
+    color: var(--powder);
+    padding: 0 5%;
+}
+.form h2{
+    margin-bottom: 50px;
+}
+.form{
+    border: 2px solid var(--gold);
+    width: 90%;
+    margin: 0 auto 100px;
+    position: relative;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: transparent;
+}
+.link:hover{
+    text-decoration: none;
+}
+.input-field{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+.input-field:focus-within{
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.24);
+    border-color: var(--gold);
+}
+.input-field .fas{
+    font-size: 1.2em;
+}
+.input-field .fa-check-circle{
+    color: var(--green);
+}
+.input-field .fa-exclamation-circle{
+    color: var(--red);
+}
+input{
+    border:none !important;
+    background-color: transparent;
+}
+.service-error{
+    margin-bottom: 0;
+    font-size: 0.85em;
+    color: var(--red);
+}
+
+
+@media only screen and (min-width: 600px) {
+    .text-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+}

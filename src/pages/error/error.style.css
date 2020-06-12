@@ -1,0 +1,24 @@
+.error{
+    background: #666666 url("../../assets/images/oops.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.error-overlay{
+    background: rgba(0, 0, 0, 0.38);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.error-header{
+    color: var(--powder);
+    font-weight: 900;
+}
+
+.error-sub{
+    color: rgba(253, 255, 252, 0.78);
+    font-weight: 800;
+}

@@ -1,0 +1,50 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--black);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --gold: #219C9C;
+  --green: #080A03;
+  --black: #080A03;
+  --powder: #FFFFFF;
+  --red: #bd1c13;
+}
+p{
+  line-height: 2em;
+}
+@keyframes autofill {
+  0%,100% {
+    color: #666;
+    background: transparent;
+  }
+}
+@-webkit-keyframes autofill {
+  0%,100% {
+    color: #666;
+    background: transparent;
+  }
+}
+input:-webkit-autofill{
+  animation-delay: 1s; /* Safari support - any positive time runs instantly */
+  animation-name: autofill;
+  animation-fill-mode: both;
+}
+input:-webkit-autofill {
+  -webkit-animation-delay: 1s; /* Safari support - any positive time runs instantly */
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}

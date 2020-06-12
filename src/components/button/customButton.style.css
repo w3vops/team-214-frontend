@@ -1,0 +1,23 @@
+.hi-button{
+    margin-top: 10px;
+    background: var(--green);
+    border-radius: 5px;
+    border: 1px solid var(--green)!important;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bolder;
+}
+.hi-button:hover{
+    background: rgba(8, 10, 3, 0.83);
+}
+.regular2:hover{
+    background: #151602;
+}
+.hi-button:focus{
+    outline: 0;
+}
+button:disabled, button[disabled], button[disabled]:hover{
+    background: #3c3c3c;
+    color: var(--powder);
+    cursor: not-allowed;
+}

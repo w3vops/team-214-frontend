@@ -1,0 +1,86 @@
+.about-section{
+    text-align: center;
+    padding: 20px;
+}
+.about-section p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.aos{
+    overflow-x: hidden;
+}
+.link{
+    cursor: pointer;
+    color: var(--green);
+    font-weight: 700;
+}
+.link:hover{
+    color: var(--gold);
+    text-decoration: none;
+}
+section{
+    margin: 100px 0;
+}
+.row{
+    margin: 60px 0;
+}
+.about-details{
+    text-align: center;
+    background: var(--black);
+    padding: 50px 0;
+    color: white;
+}
+.about-details .fas, .fa{
+    color: var(--gold);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.services-img{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service-display h1{
+    text-align: center;
+}
+.service-display h2{
+    color: var(--gold);
+}
+.steps{
+    text-align: center;
+    background: var(--black);
+    padding: 50px 0;
+    color: white;
+}
+.my-jumbotron{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 100%;
+}
+.my-jumbotron-div{
+    color: var(--powder);
+    padding: 0 50px;
+    height: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 800;
+}
+.make-gold{
+    font-weight: 900;
+    color: var(--gold);
+}
+
+#sponsors{
+    width: 100%;
+    text-align: center;
+}
+#sponsors img{
+    margin-top: 80px;
+    max-width: 300px;
+}
+

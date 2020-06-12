@@ -1,0 +1,46 @@
+.modal-header{
+    background: var(--black);
+    color: var(--powder);
+}
+.modal-header .close{
+    color: var(--green);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.modal-header .close:focus{
+    outline: none;
+}
+.modal-body .fas{
+    font-size: 3em;
+    color: rgba(33, 156, 156, 0.76);
+    margin-bottom: 10px;
+}
+.modal-body .row{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.modal-body .modal-elements{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.modal-body .modal-elements h4{
+    color: rgba(0, 0, 0, 0.51);
+}
+.modal-body .modal-service:hover .modal-elements .fas{
+    color: var(--gold);
+}
+.modal-body .modal-service:hover .modal-elements h4{
+    color: black;
+}
+.modal-footer{
+    background: var(--black);
+}
+
+@media only screen and (min-width: 1200px){
+    .modal-body .modal-elements{
+        margin-bottom: 0;
+    }
+}

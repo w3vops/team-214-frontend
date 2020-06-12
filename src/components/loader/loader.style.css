@@ -1,0 +1,22 @@
+.loader-overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.38);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-circle-notch{
+    color: var(--green);
+    font-size: 5em;
+}
+.loader-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

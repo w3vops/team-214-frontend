@@ -1,0 +1,22 @@
+.category-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.category-header .fa-box-open,  .category-header .fa-box, .category-header .fa-undo-alt{
+    color: var(--gold);
+    cursor: pointer;
+    font-size: 2em;
+    margin-right: 20px;
+}
+.category-header .fa-box{
+    color: var(--red);
+}
+.category-header{
+    margin-top: 40px;
+}
+.makeInvisible{
+    display: none;
+}
