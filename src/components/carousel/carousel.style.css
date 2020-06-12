@@ -1,0 +1,32 @@
+.carousel-item{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item div{
+    color: var(--powder);
+    padding: 10px 20px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item *{
+    text-align: center;
+}
+.carousel-item h1{
+    color: var(--powder);
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.carousel-item h5{
+    line-height: 1.5em;
+}
+.golden{
+    color: var(--gold);
+}

@@ -1,0 +1,64 @@
+.navbar a, .dropdown-toggle{
+    color: var(--black);
+}
+.navbar a:hover, .dropdown-toggle:hover{
+    color: var(--gold) !important;
+}
+a.active-nav{
+    color: var(--gold) !important;
+    font-weight: bolder !important;
+}
+.hi-logo span{
+    color: var(--gold);
+}
+.navbar{
+    padding: 10px 5% !important;
+    background: var(--powder) !important;
+}
+.nav-item{
+    text-align: center;
+}
+
+.navbar-toggler{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+}
+.menu-line1, .middle-line{
+    height: 3px;
+    width: 20px;
+    background: var(--black);
+    border-radius: 200px;
+}
+.middle-line{
+    width: 40px;
+    margin: 5px 0;
+    background: var(--gold);
+}
+.nav-background{
+    background: var(--powder);
+}
+.dropdown-menu a{
+    color: var(--black) !important;
+}
+.dropdown-item:active{
+    background: var(--powder);
+}
+.dropdown-toggle{
+    cursor: pointer;
+}
+@media only screen and (min-width: 600px){
+    .navbar li{
+        margin-left: 30px;
+    }
+    .navbar-nav{
+        display: flex !important;
+        align-items: center !important;
+    }
+    .navbar-nav *{
+        margin-top: 0 !important;
+    }
+}
+

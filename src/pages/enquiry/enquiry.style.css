@@ -1,0 +1,51 @@
+.enquiry{
+    margin-top: 50px;
+}
+.question-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(50vh - 50px);
+}
+.enquiry .row, .enquiry .container-fluid, .enquiry .left{
+    padding: 0!important;
+}
+.enquiry .right{
+    padding: 5%;
+}
+.enquiry h2{
+    font-weight: 900;
+}
+.enquiry .bannerText{
+    font-weight: 900;
+    color: var(--powder);
+}
+.imageLayer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+.enquiry .subtopic{
+    color: rgba(0, 0, 0, 0.34);
+    font-weight: 900;
+    line-height: 1.5em;
+    margin: 20px 0 40px;
+}
+.form-control{
+    border: none;
+}
+
+@media only screen and (min-width: 1200px){
+    .imageLayer{
+        display: none;
+    }
+    .question-image{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: calc(100vh - 50px);
+    }
+}

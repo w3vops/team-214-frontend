@@ -1,0 +1,51 @@
+.admin-list-item{
+    min-height: 50px;
+    border: 1px solid rgba(0, 106, 78, 0.23);
+    margin-bottom: 20px;
+    background: var(--powder);
+    transition: all 0.2s ease-in;
+}
+.admin-list-item:hover{
+    border: 1px solid var(--green);
+    -webkit-box-shadow: 0 11px 9px -4px rgba(0,106,78,0.29);
+    -moz-box-shadow: 0 11px 9px -4px rgba(0,106,78,0.29);
+    box-shadow: 0 11px 9px -4px rgba(0,106,78,0.29);
+}
+.admin-list-item p{
+    margin-bottom: 0;
+}
+.admin-list-item .row{
+    margin: 30px 0;
+}
+.admin-list-item .row div{
+    word-wrap: break-word;
+}
+.admin-list-item .fa-trash-alt, .admin-list-item .fa-minus-square,.admin-list-item .fa-undo-alt{
+    color: var(--red);
+    font-size: 1.5em;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.admin-list-item .fa-undo-alt{
+    color: var(--gold);
+}
+.admin-list-item .hr{
+    height: 1px;
+    width: 90%;
+    background: #eee;
+    margin: 20px auto;
+}
+
+.admin-list-item .description{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    flex-wrap: wrap;
+}
+
+.admin-list-item .description .title{
+    margin-right: 20px;
+}
+
+
+

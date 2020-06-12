@@ -1,0 +1,67 @@
+.main-admin{
+    background: rgba(0, 106, 78, 0.04);
+    margin-top: 60px;
+    min-height: 100vh;
+    padding: 50px 10%;
+    width: 100%;
+}
+.main-admin .admin-header h4{
+    font-weight: 900;
+}
+.make-green{
+    color: var(--green);
+}
+.admin-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.admin-header .select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.admin-header .select p{
+    margin-bottom: 0;
+    line-height: 1em;
+    font-weight: 800;
+    color: var(--gold);
+}
+.admin-header select:focus{
+    outline: var(--gold) auto 5px;
+}
+select { font-size: 1.3em;
+    padding:10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 10px;
+    background: transparent;
+    border-color: var(--gold);
+    color: var(--green);
+    cursor: pointer;
+    outline: none;
+}
+.list-headers p{
+    color: rgba(0, 0, 0, 0.47);
+    margin: 0;
+}
+.list-headers .row{
+    margin-bottom: 30px;
+}
+.list-headers{
+    display: none;
+}
+
+@media only screen and (min-width: 600px){
+    .list-headers{
+        display: block;
+    }
+    .admin-header{
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
